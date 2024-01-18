@@ -1,0 +1,55 @@
+<html5>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Looking for fun things?</h1>
+	<img src="https://static.wikia.nocookie.net/wii/images/8/89/Pikachu.jpg/revision/latest?cb=20140209205851" title="The Goat" width="150" height="150">
+	<h1>Sign Up to see my beautiful website</h1>
+	<form>
+		<label>First Name: <input type="text" name="firstName" placeholder="firstName" required></label>
+		<label>Last Name: <input type="text" name="LastName" placeholder="lastName" required></label><br>
+
+		<label>Male <input type="radio" name="gender" value="male"></label>
+		<label>Female <input type="radio" name="gender" value="female"></label>
+		<label>Other <input type="radio" name="gender" value="other"></label><br>
+
+		<label>Email: <input type="email" name="email" placeholder="your email" required></label>
+
+		<label>Password: <input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="please enter password of length 5 to 10"></label><br>
+
+		<label for="">Birthday: </label>
+		<select id="birthday" name="Month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+		</select>
+		<select id="birthday" name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<select id="birthday" name="Year">
+			<option>Year</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+		</select><br>
+
+		<label>I Agree To The Terms And Conditions
+			<input type="checkbox" name="check">
+		</label><br>
+
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
